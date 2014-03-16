@@ -1,6 +1,6 @@
 algorithom
 ==========
-This is an simple implement of some sort algorithms while prepare for the interview.
+This is a simple implement of some sort algorithms while prepare for the interview.
 
 You are welcome to discuss it with me if there is anything wrong or you have a better solution.
 
