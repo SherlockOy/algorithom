@@ -1,28 +1,29 @@
 #include <stdio.h>
 //希尔排序
-void shellSort(int v[], int n);
+void shellSort(int v[],int n);
 //归并排序
-void mergeSort(int v[], int help[],int low, int high);
-void merge(int v[], int help[],int low, int mid, int high);
+void mergeSort(int v[],int help[],int low,int high);
+void merge(int v[],int help[],int low,int mid,int high);
 //交换值
-void swap(int *a, int *b);
+void swap(int *a,int *b);
 //堆排序
 void heapSort(int v[],int len);
-void buildMaxHeap(int v[], int len);
-void adjustDown(int v[], int k, int len);
+void buildMaxHeap(int v[],int len);
+void adjustDown(int v[],int k,int len);
 //简单选择排序
-void selectSort(int v[], int n);
+void selectSort(int v[],int n);
 //冒泡排序
-void bubbleSort(int v[], int n);
+void bubbleSort(int v[],int n);
 //快速排序
-void quickSort(int v[],int low, int high);
-int partition(int v[], int low, int high);
+void quickSort(int v[],int low,int high);
+int partition(int v[],int low,int high);
 
 
 
 int main(void){
 
     int v[10] = {6,3,2,9,0,4,7,5,1,8};
+    //used in mergeSort
     int help[10];
     //shellSort(v,10);
     //mergeSort(v,help,0,9);
