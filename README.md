@@ -4,5 +4,6 @@ This is a simple implement of some sort algorithms by C language while preparing
 
 You are welcome to discuss it with me if there is anything wrong or you have a better solution.
 
-Sherlock Ouyang\n
+Sherlock Ouyang
+
 Mar 16, 2014
