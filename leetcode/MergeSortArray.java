@@ -15,7 +15,7 @@ public class Solution {
         i=0;
         j=0;
         k=0;
-        for(i=0,j=0,k=i;i<m&&j<n;k++){
+        for(k=i;i<m&&j<n;k++){
             if(C[i]<=B[j])
                 A[k] = C[i++];
             else
