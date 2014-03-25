@@ -2,6 +2,10 @@
 
 Note:
 Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+
+Important:
+I failed to solve this problem under the constraint of not using extra memory, here is a solution from 1337c0d3r at http://oj.leetcode.com/discuss/857/constant-space-solution
+thank you for this neat and great solution.
 */
 
 public class Solution {
